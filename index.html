@@ -13,6 +13,7 @@
     <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
 
     <!-- Consumiendo Fuentes -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -30,7 +31,7 @@
   <body id="page-top" class="index">
 
     <!-- Menu de Navegacion -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top animated fadeInDown ">
       <div class="container">
 
         <!-- Boton del menu desplegable -->
@@ -63,7 +64,7 @@
 
     <!-- Cabecera, Logo, Parte inicial -->
     <header>
-      <div class="container">
+      <div class="container animated fadeInDown retraso-1">
         <div class="row">
           <div class="col-lg-12">
             <!-- <img class="img-responsive" src="img/profile.png" alt=""> -->
@@ -429,6 +430,21 @@
             </form>
           </div>
         </div>
+
+
+
+        <!-- Do not change the code! -->
+        <a id="foxyform_embed_link_262520" href="http://es.foxyform.com/">foxyform</a>
+        <script type="text/javascript">
+        (function(d, t){
+           var g = d.createElement(t),
+               s = d.getElementsByTagName(t)[0];
+           g.src = "http://es.foxyform.com/js.php?id=262520&sec_hash=35e5946b534&width=350px";
+           s.parentNode.insertBefore(g, s);
+        }(document, "script"));
+        </script>
+        <!-- Do not change the code! -->
+
       </div>
     </section>
 
@@ -479,15 +495,15 @@
                       </div>
                   </div>
               </div>
-              <div class="container">
+              <div class="container color-verde">
                   <div class="row">
                       <div class="col-lg-8 col-lg-offset-2">
-                          <div class="modal-body">
+                          <div class="modal-body animated tada">
                               <h2>Impresora 3D</h2>
                               <hr class="star-primary">
                               <div class="row">
                                 <div class="col-xs-6">
-                                  <img src="img/portafolio/printer-3d.jpg" width="400" class="img-responsive img-centered" alt="">
+                                  <img src="img/portafolio/printer-3d.jpg" width="400" height="400" class="img-responsive img-centered" alt="">
                                 </div>
                                 <div class="col-xs-6">
                                   <img src="img/portafolio/printer-3d-2.jpg" height="400" class="img-responsive img-centered" alt="">
@@ -495,18 +511,22 @@
                               </div>
 
 
-                              <p>Tu mama en tanga</p>
+                              <p>
+                                Prototipo de Impresora 3D, la idea nace para ayudar a las personas con discapacidades, para poder imprimir una protesis.
+                                <br>
+                                ademas, al cambiarle el tipo de filamento, se podria imprimir objetos como tasas, platos o partes de drones.
+                              </p>
                               <ul class="list-inline item-details">
-                                  <li>Cliente:
-                                      <strong><a href="#">YO</a>
+                                  <li>Mercado Objetivo:
+                                      <strong><a href="#">Personas con discapacidades</a>
                                       </strong>
                                   </li>
                                   <li>Fecha:
-                                      <strong><a href="#">ahora</a>
+                                      <strong><a href="#">Noviempre - 2015</a>
                                       </strong>
                                   </li>
                                   <li>Servicio:
-                                      <strong><a href="#">Intento de Impresora 3D</a>
+                                      <strong><a href="#">Maquina CNC</a>
                                       </strong>
                                   </li>
                               </ul>
@@ -527,27 +547,41 @@
                       </div>
                   </div>
               </div>
-              <div class="container">
+              <div class="container color-azul">
                   <div class="row">
                       <div class="col-lg-8 col-lg-offset-2">
-                          <div class="modal-body">
+                          <div class="modal-body animated rubberBand">
                               <h2>Js</h2>
                               <hr class="star-primary">
-                              <img src="img/portafolio/js1.png" class="img-responsive img-centered" alt="">
+                              <div class="row rext-center">
+                                <div class="col-xs-12 col-xs-6">
+                                  <img src="img/portafolio/nodeHome.png" class="img-responsive img-centered" alt="NodeCode">
+                                </div>
+                                <div class="col-xs-12 col-xs-6">
+                                  <img src="img/portafolio/nodeMenu.png" class="img-responsive img-centered" alt="NodeCode">
+                                </div>
+                                <div class="col-xs-12 ">
+                                  <img src="img/portafolio/nodeCode.png" class="img-responsive img-centered" alt="NodeCode">
+                                </div>
+                              </div>
+
+
+
                               <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Pequeña aplicacion creada con NodeJs, la cual registra datos en MongoDB, y guarda las imagenes <br>
+                                en un servidor separado del codigo principal llamado cloudinary
                               </p>
                               <ul class="list-inline item-details">
                                   <li>Cliente:
-                                      <strong><a href="#">Js</a>
+                                      <strong><a href="#"><p>Restaurante de heladeria</p></a>
                                       </strong>
                                   </li>
                                   <li>Fecha:
-                                      <strong><a href="#">Hoy</a>
+                                      <strong><a href="#"><p>Enero - 2016</p></a>
                                       </strong>
                                   </li>
                                   <li>Servicio:
-                                      <strong><a href="#">Nada</a>
+                                      <strong><a href="#"><p>Desarrollo de un sistema de registro y tienda en linea</p></a>
                                       </strong>
                                   </li>
                               </ul>
@@ -569,27 +603,28 @@
                       </div>
                   </div>
               </div>
-              <div class="container">
+              <div class="container color-naranja ">
                   <div class="row">
                       <div class="col-lg-8 col-lg-offset-2">
-                          <div class="modal-body">
+                          <div class="modal-body animated zoomInDown">
                               <h2>Hotel</h2>
                               <hr class="star-primary">
-                              <img src="img/portafolio/hotel1.png" class="img-responsive img-centered" alt="">
+                              <img src="img/portafolio/hotelElDelfin.png" class="img-responsive img-centered" alt="">
                               <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil similique rem, quos sapiente magnam. Qui sit ut, voluptates velit dignissimos sunt rem nihil et. Atque ex debitis iure veniam quis!
+                                El Hotel Delfin Dorado ofrece una fantástica experiencia vacacional todo incluido, con el caluroso y rico clima que ofrece Playa el Espino Usulutan. <br>
+                                Ubicado en la costa Sur de Usulutan El Salvador a tan solo 1 hora de distancia desde Usulutan....
                               </p>
                               <ul class="list-inline item-details">
                                   <li>Cliente:
-                                      <strong><a href="#">Werner</a>
+                                      <strong><a href="#">Hotel El Delfein Dorado</a>
                                       </strong>
                                   </li>
                                   <li>Fecha:
-                                      <strong><a href="#">Hoy</a>
+                                      <strong><a href="#">Noviembre - 2012</a>
                                       </strong>
                                   </li>
                                   <li>Servicio:
-                                      <strong><a href="#">Nada</a>
+                                      <strong><a href="#">Desarrollo de Portal y Reservacion en linea</a>
                                       </strong>
                                   </li>
                               </ul>

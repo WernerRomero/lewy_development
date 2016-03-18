@@ -1,6 +1,6 @@
 <?php
   // Check for empty fields
-  if(empty($_POST['name'])  		||
+ if(empty($_POST['name'])  		||
      empty($_POST['email']) 		||
      empty($_POST['phone']) 		||
      empty($_POST['message'])	||
@@ -15,6 +15,11 @@
   $phone = $_POST['phone'];
   $message = $_POST['message'];
 
+  echo "Nombre: ".$name." - Email: ".$email_address." - Tel: ".$phone." - Mensaje> ".$message;
+
+
+
+/*
   // Create the email and send the message
   $to = 'yourname@yourdomain.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
   $email_subject = "Website Contact Form:  $name";
@@ -22,5 +27,13 @@
   $headers = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
   $headers .= "Reply-To: $email_address";
   mail($to,$email_subject,$email_body,$headers);
-  return true;
+  return true; */
+
+  $to = 'root@104.236.244.67'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+  $email_subject = "Formulario de Contacto: ".$name;
+  $email_body = "Has recivido un nuevo mensaje de tu sitio web del Formulario.\n\n"."Pucha aki para ver detalle:\n\n Nombre: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
+  $headers = "From: werner_15@hotmail.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+  //$headers .= "Reply-To: $email_address";
+  mail($to,$email_subject,$email_body,$headers);
+
 ?>

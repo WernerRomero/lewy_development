@@ -488,3 +488,29 @@ footer .footer-below {
 .bordered{
   border: 1px solid red;
 }
+.color-verde{
+  width: : 100%;
+  height: 100%;
+  background-color: #18bc9c;
+}
+.color-azul{
+  width: : 100%;
+  height: 100%;
+  background-color: #34dbd1;
+}
+.color-naranja{
+  width: : 100%;
+  height: 100%;
+  background-color: #dbb134;
+}
+
+.retraso-1{
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.retraso-2{
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+}
