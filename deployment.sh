@@ -1,4 +1,5 @@
 #!/bin/sh
-cd ../var/wwww/html
+
+cd ../var/www/html/
 git pull origin server
 sudo service apache2 restart
