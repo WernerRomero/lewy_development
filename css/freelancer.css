@@ -4,8 +4,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
+body, html {
     overflow-x: hidden;
+    background-color: #E7E7E7;
+    border-radius: 5px 5px; 
 }
 
 p {
@@ -401,6 +403,18 @@ footer .footer-below {
     outline: 0;
 }
 
+.portfolio-modal{
+    text-align: center;
+    width: 70%;
+    height: 98%;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+
+.modal-content{
+    background-color: #EAEAEA;
+}
+
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
@@ -409,7 +423,7 @@ footer .footer-below {
     text-align: center;
     background-clip: border-box;
     -webkit-box-shadow: none;
-    box-shadow: none;
+    /*box-shadow: none;*/
 }
 
 .portfolio-modal .modal-content h2 {
@@ -487,4 +501,26 @@ footer .footer-below {
 
 .bordered{
   border: 1px solid red;
+}
+.cVerde{   background-color: #18bc9c; }
+.cAzul{    background-color: #34dbd1; }
+.cNaranja{ background-color: #dbb134; }
+.cMorado{  background-color: #FF95FC; }
+
+.modal-color{
+    width: : 100%;
+    height: 100%;
+    border-radius: 15px 15px;
+    box-shadow: 20px 20px 5px #888888;
+}
+
+.retraso-1{
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.retraso-2{
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
 }
